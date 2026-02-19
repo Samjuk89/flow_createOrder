@@ -1,0 +1,1120 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Цветы</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="/css/main.css" />
+		<link rel="stylesheet" href="/css/styles_new/default_styles.css" />
+		<link rel="stylesheet" href="/css/styles_new/modals_styles.css" />
+		<link rel="stylesheet" href="/css/styles_new/tables_styles.css" />
+		<link rel="stylesheet" href="/css/styles_new/buttons_styles.css" />
+		<link rel="stylesheet" href="/css/styles_new/textColors_styles.css" />
+		<link rel="stylesheet" href="/css/sam.css" />
+		<!-- <link rel="shortcut icon" href="/circles.ico"> -->
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<script src="https://use.fontawesome.com/c61f48834a.js"></script>
+	</head>
+
+	<body>
+		<div class="maincontent">
+			<div class="container">
+				<div class="info-section-cont left-sis write-create-cont create_order">
+					<div class="back_btn">Вернуться к товарам</div>
+
+					<div class="create_order-container">
+						<div class="create_order-title">Новый заказ</div>
+
+						<div class="create_order-form">
+							<div class="create_order-form_block">
+								<div class="create_order-form-input">
+									<div class="label-up">Заказчик</div>
+									<input
+										type="text"
+										placeholder="Найти или выбрать"
+										name=""
+										id=""
+									/>
+								</div>
+							</div>
+							<div class="create_order-form_block">
+								<div class="create_order-form_block-title">Комментарий</div>
+								<div class="create_order-form-input">
+									<textarea
+										placeholder="Укажите комментарий или пожаления клиента"
+										rows="4"
+										name=""
+										id=""
+									></textarea>
+								</div>
+
+								<div class="ckeck_container">
+									<label class="ckeck_container-item">
+										<input
+											type="checkbox"
+											name=""
+											id=""
+											onchange="updateCheckboxStyle(this)"
+										/>
+										Монобукет
+									</label>
+									<label class="ckeck_container-item">
+										<input
+											type="checkbox"
+											name=""
+											id=""
+											onchange="updateCheckboxStyle(this)"
+										/>
+										Монобукет
+									</label>
+									<label class="ckeck_container-item">
+										<input
+											type="checkbox"
+											name=""
+											id=""
+											onchange="updateCheckboxStyle(this)"
+										/>
+										Монобукет
+									</label>
+									<label class="ckeck_container-item">
+										<input
+											type="checkbox"
+											name=""
+											id=""
+											onchange="updateCheckboxStyle(this)"
+										/>
+										Монобукет
+									</label>
+									<label class="ckeck_container-item">
+										<input
+											type="checkbox"
+											name=""
+											id=""
+											onchange="updateCheckboxStyle(this)"
+										/>
+										Монобукет
+									</label>
+									<label class="ckeck_container-item">
+										<input
+											type="checkbox"
+											name=""
+											id=""
+											onchange="updateCheckboxStyle(this)"
+										/>
+										Монобукет
+									</label>
+									<label class="ckeck_container-item">
+										<input
+											type="checkbox"
+											name=""
+											id=""
+											onchange="updateCheckboxStyle(this)"
+										/>
+										Монобукет
+									</label>
+								</div>
+							</div>
+
+							<div class="create_order-form_block">
+								<div class="create_order-form_block-title">Источник</div>
+								<div class="ckeck_container">
+									<label class="ckeck_container-item_radio">
+										<input type="radio" name="root" id="" />
+										Звонок
+									</label>
+									<label class="ckeck_container-item_radio">
+										<input type="radio" name="root" id="" />
+										Телеграм
+									</label>
+									<label class="ckeck_container-item_radio">
+										<input type="radio" name="root" id="" />
+										Звонок
+									</label>
+									<label class="ckeck_container-item_radio">
+										<input type="radio" name="root" id="" />
+										Звонок
+									</label>
+									<label class="ckeck_container-item_radio">
+										<input type="radio" name="root" id="" />
+										Звонок
+									</label>
+								</div>
+							</div>
+							<div class="create_order-form_block">
+								<div class="create_order-form_block-title">Бюджет</div>
+								<div
+									style="
+										display: flex;
+										justify-content: space-between;
+										gap: 15px;
+									"
+								>
+									<div class="price_input">
+										<input type="number" name="" id="" />₽
+									</div>
+									<div class="btn_price">500₽ +</div>
+									<div class="btn_price">1000₽ +</div>
+									<div class="btn_price">до 5000₽</div>
+								</div>
+								<div class="create_order-form-input">
+									<div class="label-up">Спосбо оплаты</div>
+									<input type="hidden" name="" id="" />
+									<div class="dropdown">
+										<div class="dropdown-input">
+											<input
+												readonly
+												class="dropdown-input-text"
+												type="text"
+												placeholder="выбрать"
+												name=""
+												id=""
+											/>
+											<svg
+												width="40"
+												height="40"
+												viewBox="0 0 40 40"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M12.5 16L20.2717 24L27.5 16"
+													stroke="#434343"
+													stroke-width="2"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+												/>
+											</svg>
+										</div>
+										<div class="dropdown-content">
+											<div class="dropdown-list"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="create_order-form_block">
+								<div class="create_order-form_block-title">Дата</div>
+
+								<div class="date_container">
+									<div class="btn_price">
+										Сегодня
+										<span>(20 декабря)</span>
+									</div>
+
+									<div class="btn_price">
+										Сегодня
+										<span>(20 декабря)</span>
+									</div>
+
+									<div class="btn_price">
+										Сегодня
+										<span>(20 декабря)</span>
+									</div>
+
+									<div class="btn_price">
+										Сегодня
+										<span>(20 декабря)</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="create_order-form_block">
+								<div
+									class="create_order-form_block-title"
+									style="
+										display: flex;
+										align-items: center;
+										justify-content: space-between;
+									"
+								>
+									Адрес
+									<label
+										for="deliv"
+										style="display: flex; align-items: center; gap: 10px"
+									>
+										<input
+											type="checkbox"
+											id="deliv"
+											style="width: 25px; height: 25px"
+										/>
+										Нужна доставка
+									</label>
+								</div>
+								<div
+									style="
+										display: flex;
+										justify-content: start;
+										gap: 15px;
+										align-items: center;
+									"
+								>
+									<div class="create_order-form-input" style="width: 75%">
+										<div class="label-up">Магазин (самовывоз)</div>
+										<input type="hidden" name="" id="" />
+
+										<div class="dropdown">
+											<div class="dropdown-input">
+												<input
+													readonly
+													class="dropdown-input-text"
+													type="text"
+													placeholder="Выбрать магазин"
+													name=""
+													id=""
+												/>
+												<svg
+													width="40"
+													height="40"
+													viewBox="0 0 40 40"
+													fill="none"
+													xmlns="http://www.w3.org/2000/svg"
+												>
+													<path
+														d="M12.5 16L20.2717 24L27.5 16"
+														stroke="#434343"
+														stroke-width="2"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+													/>
+												</svg>
+											</div>
+											<div class="dropdown-content">
+												<div class="dropdown-list"></div>
+											</div>
+										</div>
+									</div>
+									<div class="create_order-form-input time">
+										<div class="label-up">Время</div>
+										<input type="time" placeholder="" name="" id="" />
+									</div>
+								</div>
+
+								<div class="delivery_block">
+									<div class="delivery_block-item">
+										<div class="delivery_block-title">Доставка</div>
+										<label
+											for="recipient"
+											style="display: flex; align-items: center; gap: 10px"
+										>
+											<input
+												type="checkbox"
+												id="recipient"
+												style="width: 25px; height: 25px"
+											/>
+											Получит заказчик
+										</label>
+
+										<div
+											style="
+												display: flex;
+												justify-content: space-between;
+												gap: 15px;
+												align-items: center;
+											"
+										>
+											<div class="create_order-form-input" style="width: 100%">
+												<div class="label-up">Телефон получателя</div>
+												<input
+													style="width: 100%"
+													type="tel"
+													placeholder="+7 | 000 000 00-00"
+													name=""
+													id=""
+												/>
+											</div>
+											<div class="create_order-form-input" style="width: 100%">
+												<div class="label-up">Получатель</div>
+												<input
+													style="width: 100%"
+													type="text"
+													placeholder="Имя получателя"
+													name=""
+													id=""
+												/>
+											</div>
+										</div>
+
+										<label
+											for="from"
+											style="display: flex; align-items: center; gap: 10px"
+										>
+											<input
+												type="checkbox"
+												id="from"
+												style="width: 25px; height: 25px"
+											/>
+											Не сообщать от кого
+										</label>
+									</div>
+
+									<div class="delivery_block-item">
+										<div class="adderss-block">
+											<input type="text" placeholder="Улица, дом" />
+											<input type="text" placeholder="Квартира" />
+											<input type="text" placeholder="Подъезд" />
+											<input type="text" placeholder="Этаж" />
+										</div>
+										<textarea
+											name=""
+											placeholder="Комментарий для доставки"
+											rows="4"
+											id=""
+										></textarea>
+
+										<div
+											style="
+												display: flex;
+												justify-content: space-between;
+												gap: 15px;
+												align-items: center;
+											"
+										>
+											<div class="create_order-form-input time">
+												<div class="label-up">Время</div>
+												<input type="time" placeholder="" name="" id="" />
+											</div>
+
+											<label
+												for="address"
+												style="display: flex; align-items: center; gap: 10px"
+											>
+												<input
+													type="checkbox"
+													id="address"
+													style="width: 25px; height: 25px"
+												/>
+												Уточнить адрес и время у получателя
+											</label>
+										</div>
+									</div>
+								</div>
+
+								<div class="create_order-controls">
+									<div class="create_order-controls-item addOrder">
+										Оформить заказ
+									</div>
+									<div class="create_order-controls-item addStaff">
+										Добавить товары
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="checks-container">
+					<div class="checks-tabs-cont">
+						<div class="checks-tabs">
+							<div class="checks-tab active">
+								<div class="name">Чек 1</div>
+								<button class="close-check">
+									<svg
+										width="26"
+										height="25"
+										viewBox="0 0 26 25"
+										stroke="black"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M2 23.5L24 1.5M2 1.5L24 23.5"
+											stroke-width="3"
+											stroke-linecap="round"
+										/>
+									</svg>
+								</button>
+								<div class="close-check-menu">
+									<div class="close-check-menu-item cancel-check">
+										<svg
+											width="21"
+											height="24"
+											viewBox="0 0 21 24"
+											stroke="#AFAFAF"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M5.89062 8.33594L14.446 16.8913M5.89062 16.8913L14.446 8.33594"
+												stroke-width="2"
+												stroke-linejoin="bevel"
+											/>
+											<path
+												d="M0.998047 1.00052L13.22 1L19.3309 6.64074V23H0.998047V1.00052Z"
+												stroke-width="2"
+												stroke-linejoin="bevel"
+											/>
+										</svg>
+
+										Отмена заказа
+									</div>
+									<div class="close-check-menu-item clear-check">
+										<svg
+											width="26"
+											height="22"
+											viewBox="0 0 26 22"
+											stroke="#AFAFAF"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M23.8865 10.201L13.0865 21.001H7.57404C7.26353 20.9869 6.9694 20.8577 6.74904 20.6385L2.11154 16.0635C1.87872 15.8293 1.74805 15.5125 1.74805 15.1822C1.74805 14.852 1.87872 14.5352 2.11154 14.301L15.049 1.36349C15.2832 1.13068 15.6001 1 15.9303 1C16.2605 1 16.5773 1.13068 16.8115 1.36349L23.8865 8.50099C24.1009 8.73214 24.22 9.03574 24.22 9.35099C24.22 9.66624 24.1009 9.96985 23.8865 10.201Z"
+												stroke-width="2"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+											<path
+												d="M12.999 20.9969H20.499M8.29904 8.10938L2.11154 14.3594C1.87872 14.5936 1.74805 14.9104 1.74805 15.2406C1.74805 15.5709 1.87872 15.8877 2.11154 16.1219L6.74904 20.6344C6.86584 20.7502 7.00436 20.8419 7.15665 20.9041C7.30895 20.9663 7.47203 20.9978 7.63654 20.9969H13.149L17.199 16.9469L8.29904 8.10938Z"
+												stroke-width="2"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</svg>
+
+										Очистить чек
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="checks-tab-add" id="add_check_tab_Btn">
+							<svg
+								width="27"
+								height="27"
+								viewBox="0 0 27 27"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M1.50098 13.2217L24.9443 13.2217M13.2227 1.5L13.2227 24.9434"
+									stroke="currentColor"
+									stroke-width="3"
+									stroke-linecap="round"
+								/>
+							</svg>
+						</div>
+					</div>
+
+					<div class="check-body">
+						<div class="check-header">
+							<div class="check-header-item type">
+								<img src="/-images/bouquet.svg" alt="" />
+								Собрать букет
+							</div>
+							<div class="check-header-item client">
+								<div class="client-box">
+									<svg
+										width="17"
+										height="24"
+										viewBox="0 0 17 24"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<circle
+											cx="8.39844"
+											cy="6.05469"
+											r="5.07812"
+											fill="#AAAAAA"
+											stroke="#AAAAAA"
+											stroke-width="1.95312"
+										/>
+										<path
+											d="M15.8035 20.8637C13.7845 23.2125 3.81577 23.7997 0.976562 20.8637C0.976562 19.7627 1.92296 14.2578 8.23232 14.2578C14.2893 14.2578 16.0138 18.6617 15.8035 20.8637Z"
+											fill="#AAAAAA"
+											stroke="#AAAAAA"
+											stroke-width="1.95312"
+											stroke-linecap="round"
+										/>
+									</svg>
+									КЛИЕНТ
+								</div>
+							</div>
+						</div>
+
+						<div class="assembly-list write-view edited">
+							<div class="assembly-items">
+								<div class="blur-overlay" style="display: none">
+									<div class="image-loader" style="width: 150px; height: 150px">
+										<img
+											class="image-loader-svg"
+											src="/-images/loader_part.svg"
+											alt="X"
+										/>
+									</div>
+								</div>
+
+								<div class="burger-btn-item-menu">
+									<div class="burger-btn-item-menu-list">
+										<div class="burger-btn-item-menu-list-item">
+											<svg
+												width="30"
+												height="30"
+												viewBox="0 0 30 30"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<circle
+													cx="15"
+													cy="7"
+													r="6"
+													stroke="#AFAFAF"
+													stroke-width="2"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+												/>
+												<path
+													d="M23.9797 25.4556C21.5314 28.462 9.44291 29.2136 6 25.4556C6 24.0463 7.14764 17 14.7986 17C22.1434 17 24.2347 22.637 23.9797 25.4556Z"
+													stroke="#AFAFAF"
+													stroke-width="2"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+												/>
+											</svg>
+											Взять под ЗП
+										</div>
+										<div class="burger-btn-item-menu-list-item">
+											<svg
+												width="30"
+												height="30"
+												viewBox="0 0 30 30"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M3.46094 2.88281C3.46094 2.88281 6.16053 2.88318 6.16053 3.11615C7.78239 3.81585 7.51166 7.49467 7.51166 7.49467V13.2435C7.51166 14.8578 7.51166 15.6649 7.87522 16.2815C8.19502 16.8239 8.70531 17.2648 9.33295 17.5412C10.0465 17.8553 10.9805 17.8553 12.8487 17.8553H18.3124C20.1806 17.8553 21.1146 17.8553 21.8282 17.5412C22.4558 17.2648 22.9661 16.8239 23.2858 16.2815C23.6494 15.6649 23.7401 15.6111 24.1852 14.0442C24.4945 12.9552 24.8027 12.2175 25.0631 10.583C25.2923 9.14405 25.5914 8.81687 23.9288 8.81687L8.41001 8.95883"
+													stroke="#AFAFAF"
+													stroke-width="2"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+												/>
+												<path
+													d="M13.1599 23.8143C13.1599 25.4074 11.8684 26.6989 10.2752 26.6989C8.68211 26.6989 7.39062 25.4074 7.39062 23.8143C7.39062 22.2212 8.68211 20.9297 10.2752 20.9297C11.8684 20.9297 13.1599 22.2212 13.1599 23.8143Z"
+													stroke="#AFAFAF"
+													stroke-width="2"
+													stroke-linecap="round"
+												/>
+												<path
+													d="M22.3903 23.8143C22.3903 25.4074 21.0988 26.6989 19.5057 26.6989C17.9126 26.6989 16.6211 25.4074 16.6211 23.8143C16.6211 22.2212 17.9126 20.9297 19.5057 20.9297C21.0988 20.9297 22.3903 22.2212 22.3903 23.8143Z"
+													stroke="#AFAFAF"
+													stroke-width="2"
+													stroke-linecap="round"
+												/>
+											</svg>
+											Создать заказ
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="reassembly-control-panel">
+								<div class="reassembly-control-btns">
+									<button class="control-btn up-item">
+										<svg
+											style="transform: rotate(180deg)"
+											width="17"
+											height="10"
+											viewBox="0 0 17 10"
+											stroke="black"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M1 1L8.77174 9L16 1"
+												stroke-width="2"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</svg>
+									</button>
+									<button class="control-btn down-item">
+										<svg
+											width="17"
+											height="10"
+											viewBox="0 0 17 10"
+											stroke="black"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M1 1L8.77174 9L16 1"
+												stroke-width="2"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</svg>
+									</button>
+									<button class="control-btn del-item">
+										<img
+											src="/-images/red_close.svg"
+											alt=""
+											class="delete_sborka_item_Btn"
+											data-item-id="2"
+											style="height: 25px"
+										/>
+									</button>
+									<button class="control-btn num-item">123</button>
+									<button class="control-btn minus-item">
+										<svg
+											width="26"
+											height="4"
+											viewBox="0 0 26 4"
+											stroke="black"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M1.68629 2.00121H24.3137"
+												stroke-width="2.5"
+												stroke-linecap="round"
+											/>
+										</svg>
+									</button>
+									<button class="control-btn plus-item">
+										<svg
+											style="transform: rotate(45deg)"
+											width="26"
+											height="25"
+											viewBox="0 0 26 25"
+											stroke="black"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M2 23.5L24 1.5M2 1.5L24 23.5"
+												stroke-width="3"
+												stroke-linecap="round"
+											/>
+										</svg>
+									</button>
+									<button class="control-btn burger-btn-item active">
+										<svg
+											width="26"
+											height="18"
+											viewBox="0 0 26 18"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<path
+												d="M1.53367 9.15747L24.1611 9.15747M1.53367 16.2539L24.1611 16.2539M1.25074 1.25023L23.8782 1.25023"
+												stroke="white"
+												stroke-width="2.5"
+												stroke-linecap="round"
+											/>
+										</svg>
+									</button>
+								</div>
+							</div>
+
+							<div class="check-control-panel">
+								<div class="check-control-btns">
+									<button class="control-btn">аквабокс</button>
+									<button class="control-btn">аквапак</button>
+									<button class="control-btn">переноска</button>
+								</div>
+
+								<div class="check-control-info">
+									<div class="info-items">
+										<div class="info-item total">
+											<div class="title">Итого:</div>
+											<div class="value w-rub">1 362</div>
+										</div>
+										<div class="info-item pay">
+											<div class="title">К оплате:</div>
+											<div class="value w-rub">1 000</div>
+										</div>
+										<div class="info-item discount">
+											<div class="title">Скидка:</div>
+											<div class="value w-rub">- 362</div>
+											<div class="reason">(Купон 25%)</div>
+										</div>
+										<div class="info-item balance">
+											<div class="title">Баланс:</div>
+											<div class="value w-rub">0</div>
+										</div>
+									</div>
+
+									<div class="info-btns">
+										<button class="btn btn-sale">
+											<!-- Добавить not-applied, если скидка не применена -->
+											Скидка
+											<svg
+												width="19"
+												height="16"
+												viewBox="0 0 19 16"
+												stroke="#30BD57"
+												fill="none"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													d="M17.2695 1.5L9.60286 14.5L2.26953 6.97368"
+													stroke-width="3"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+												/>
+											</svg>
+										</button>
+										<button class="btn btn-pay">
+											К оплате <span class="w-rub">1 362</span>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			function updateCheckboxStyle(checkbox) {
+				const label = checkbox.parentElement;
+				if (checkbox.checked) {
+					label.classList.add("checked");
+				} else {
+					label.classList.remove("checked");
+				}
+			}
+		</script>
+
+		<div class="popUp_conteiner">
+			<div
+				class="addCat__modal flex displayFlex create_order_sum"
+				style="z-index: 900000; display: none"
+			>
+				<form class="headband__two-form__three" style="display: block">
+					<div class="headband__two-header" style="align-items: center">
+						<p class="headband__two-form-title">Укажите сумму</p>
+						<button class="modal__cross">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="50"
+								height="50"
+								viewBox="0 0 50 50"
+								fill="none"
+								class="setprice_close"
+							>
+								<rect
+									opacity="0.8"
+									x="1.5"
+									y="1.5"
+									width="47"
+									height="47"
+									rx="23.5"
+									stroke="#844451"
+									stroke-width="3"
+								></rect>
+								<path
+									d="M17 33L33 17M17 17L33 33"
+									stroke="#844451"
+									stroke-width="3"
+									stroke-linecap="round"
+								></path>
+							</svg>
+						</button>
+					</div>
+					<input
+						type="text"
+						name="passcode"
+						class="headband__two-form-input"
+						id="form__three-input"
+						data-value=""
+						inputmode="text"
+					/>
+					<div class="form__three-number">
+						<button class="form__three-number-btn" data-number="1">1</button>
+						<button class="form__three-number-btn" data-number="2">2</button>
+						<button class="form__three-number-btn" data-number="3">3</button>
+						<button class="form__three-number-btn" data-number="4">4</button>
+						<button class="form__three-number-btn" data-number="5">5</button>
+						<button class="form__three-number-btn" data-number="6">6</button>
+						<button class="form__three-number-btn" data-number="7">7</button>
+						<button class="form__three-number-btn" data-number="8">8</button>
+						<button class="form__three-number-btn" data-number="9">9</button>
+						<button
+							class="form__three-number-btn control"
+							data-number="*"
+							id="reset"
+						>
+							<svg
+								width="24"
+								height="26"
+								viewBox="0 0 24 26"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M2 24L22 2M2 2L22 24"
+									stroke="white"
+									stroke-width="4"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+							Очистить
+						</button>
+						<button class="form__three-number-btn" data-number="0">0</button>
+						<button
+							class="form__three-number-btn control"
+							data-number="del"
+							id="ready"
+						>
+							<svg
+								width="33"
+								height="27"
+								viewBox="0 0 33 27"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M30.7243 2.0003L13.8226 24.6211L1.99948 12.45"
+									stroke="white"
+									stroke-width="4"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+							Готово
+						</button>
+					</div>
+				</form>
+			</div>
+
+			<div
+				class="addCat__modal flex displayFlex create_order_prepayment"
+				style="z-index: 900000"
+			>
+				<form class="headband__two-form__three" style="display: block">
+					<div class="headband__two-header" style="align-items: center">
+						<p class="headband__two-form-title">Внести предоплату</p>
+						<button class="modal__cross">
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								width="50"
+								height="50"
+								viewBox="0 0 50 50"
+								fill="none"
+								class="setprice_close"
+							>
+								<rect
+									opacity="0.8"
+									x="1.5"
+									y="1.5"
+									width="47"
+									height="47"
+									rx="23.5"
+									stroke="#844451"
+									stroke-width="3"
+								></rect>
+								<path
+									d="M17 33L33 17M17 17L33 33"
+									stroke="#844451"
+									stroke-width="3"
+									stroke-linecap="round"
+								></path>
+							</svg>
+						</button>
+					</div>
+
+					<div class="create_order_prepayment-wrapper">
+						<div class="create_order_prepayment-wrapper-item">
+							<div class="flex" style="align-items: end; gap: 15px">
+								<div class="create_order_prepayment-input">
+									<div class="label_up">Сумма предоплаты</div>
+									<div class="create_order_prepayment-input-content">
+										<input type="text" inputmode="text" placeholder="0" />
+										₽
+									</div>
+								</div>
+
+								<div class="accept_btn">
+									<svg
+										width="20"
+										height="16"
+										viewBox="0 0 20 16"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M17.536 1.6497L8.18923 14.1592L1.65096 7.42846"
+											stroke="#30BD57"
+											stroke-width="3.3"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+									</svg>
+								</div>
+							</div>
+
+							<div
+								class="create_order_prepayment-input"
+								style="margin-top: 20px"
+							>
+								<div class="label_up">Спосбо оплаты</div>
+								<div
+									class="create_order_prepayment-input-content"
+									style="cursor: pointer"
+								>
+									<input
+										type="text"
+										inputmode="text"
+										placeholder="Выбрать"
+										style="cursor: pointer"
+										readonly
+									/>
+									<svg
+										width="40"
+										height="40"
+										viewBox="0 0 40 40"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M12.5 16L20.2717 24L27.5 16"
+											stroke="#434343"
+											stroke-width="2"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+									</svg>
+								</div>
+							</div>
+
+							<div
+								class="create_order_prepayment-input"
+								style="margin-top: 10px"
+							>
+								<div
+									class="create_order_prepayment-input-content"
+									style="cursor: pointer"
+								>
+									<input
+										type="text"
+										inputmode="text"
+										placeholder="Выбрать"
+										style="cursor: pointer"
+										readonly
+										value="https://tilda.ru/page/?pageid=102374666"
+									/>
+								</div>
+							</div>
+
+							<div
+								class="create_order_prepayment-input"
+								style="margin-top: 20px"
+							>
+								<div class="label_up">Куда отправить ссылку на оплату</div>
+
+								<div class="create_order_prepayment-link-wrapper">
+									<a href="#" class="create_order_prepayment-link"
+										><img src="/img/viber.svg" alt=""
+									/></a>
+									<a href="#" class="create_order_prepayment-link"
+										><img src="/img/wp.svg" alt=""
+									/></a>
+									<a href="#" class="create_order_prepayment-link"
+										><img src="/img/tg.svg" alt=""
+									/></a>
+									<a href="#" class="create_order_prepayment-link">CMC</a>
+								</div>
+							</div>
+
+							<div class="create_order_prepayment-control">
+								<div class="create_order_prepayment-control-item accept">
+									Отправить
+								</div>
+								<div class="create_order_prepayment-control-item skip">
+									пропустить
+								</div>
+							</div>
+						</div>
+						<div class="create_order_prepayment-wrapper-item">
+							<div class="form__three-number">
+								<button class="form__three-number-btn" data-number="1">
+									1
+								</button>
+								<button class="form__three-number-btn" data-number="2">
+									2
+								</button>
+								<button class="form__three-number-btn" data-number="3">
+									3
+								</button>
+								<button class="form__three-number-btn" data-number="4">
+									4
+								</button>
+								<button class="form__three-number-btn" data-number="5">
+									5
+								</button>
+								<button class="form__three-number-btn" data-number="6">
+									6
+								</button>
+								<button class="form__three-number-btn" data-number="7">
+									7
+								</button>
+								<button class="form__three-number-btn" data-number="8">
+									8
+								</button>
+								<button class="form__three-number-btn" data-number="9">
+									9
+								</button>
+								<button
+									class="form__three-number-btn control"
+									data-number="*"
+									id="reset"
+								>
+									<svg
+										width="24"
+										height="26"
+										viewBox="0 0 24 26"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M2 24L22 2M2 2L22 24"
+											stroke="white"
+											stroke-width="4"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+									</svg>
+									Очистить
+								</button>
+								<button class="form__three-number-btn" data-number="0">
+									0
+								</button>
+								<button
+									class="form__three-number-btn control"
+									data-number="del"
+									id="reset"
+								>
+									<svg
+										width="49"
+										height="36"
+										viewBox="0 0 49 36"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M24.2448 24.8776L36.7654 11.2626M24.2448 11.2626L36.7654 24.8776M14.8083 2.18735L1.99018 16.9224C1.31438 17.6993 1.33885 18.8623 2.04672 19.61L14.8145 33.0972C15.1923 33.4962 15.7175 33.7222 16.267 33.7222H45.3674C46.472 33.7222 47.3674 32.8268 47.3674 31.7222V3.5C47.3674 2.39543 46.472 1.5 45.3674 1.5H16.3173C15.7385 1.5 15.1882 1.7507 14.8083 2.18735Z"
+											stroke="white"
+											stroke-width="3"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										/>
+									</svg>
+									Стереть
+								</button>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

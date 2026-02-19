@@ -1,0 +1,350 @@
+.redButton
+{
+    color: #ffffff;
+    background-color: #6F1B2D;
+}
+
+.pinkButton
+{
+    color: #6F1B2D;
+    background-color: #E6DADC;
+    border-color: #DEC9CC;
+}
+
+.grayButton
+{
+    border: unset;
+    font-size: 18px;
+    font-weight: 500;
+    color:#939393;
+    background-color: #9393931A;
+}
+
+.blueButton
+{
+    font-weight: 500;
+    font-size: 20px;
+    color: #567AFB;
+    border: 1px solid #567AFB33;
+    background-color: #567AFB1A;
+}
+.blueButton:hover
+{
+    color: #567AFB;
+    border: 1px solid #567afb46;
+    background-color: #567afb3a;
+}
+
+.deepBlueButton
+{
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #567afb;
+}
+.deepBlueButton:hover
+{
+    color: #ffffff;
+    background-color: #416aff;
+}
+
+.greenButton
+{
+    color:#FFFFFF;
+    background-color: #628222;
+}
+
+.saladButton
+{
+
+}
+
+#print_all_Btn
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#change_watter_Btn
+{
+    font-weight: 500;
+    font-size: 20px;
+    color: #567AFB;
+    border: 1px solid #567AFB33;
+    background-color: #567AFB1A;
+}
+#change_watter_Btn:hover
+{
+    color: #567AFB;
+    border: 1px solid #567afb46;
+    background-color: #567afb3a;
+}
+
+#change_price_Btn
+{
+    padding: unset;
+    width: 200px;
+    height: 60px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #30BD57;
+    border: 1px solid #30BD5733;
+    background-color: #30BD571A;
+}
+#change_price_Btn:hover
+{
+    color: #30BD57;
+    border: 1px solid #30bd5842;
+    background-color: #30bd582a;
+}
+
+#print_Code_Btn 
+{
+    padding: unset;
+    font-size: 12px;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+#add_items_to_composition
+{
+    margin-block: 30px;
+    height: 70px;
+}
+
+#decompile_Bouquet_Btn
+{
+    color: #C04F55;
+    background-color: #C04F5526;
+    border: unset;
+}
+
+
+#put_To_Work_Btn
+{
+
+}
+
+#put_to_existing_sale_Btn
+{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    height: 85px;
+}
+
+#put_to_new_order_Btn
+{
+    height: 85px;
+}
+
+.navigation-back-btn-withArrow
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    min-width: fit-content;
+    width: 50%;
+    color: #000000;
+}
+
+.navigation-back-btn-withArrow .navigation-arrow 
+{
+    color: #888888;
+}
+.navigation-back-btn-withArrow:hover .navigation-arrow 
+{
+    color: #000000;
+}
+
+.text-button-grey
+{
+    user-select: none;
+    cursor: pointer;
+    color: #A1A1A1;
+    font-size: 20px;
+    font-weight: 400;
+}
+.text-button-grey:hover
+{
+    color: #315dfd;
+}
+
+.text-button
+{
+    user-select: none;
+    cursor: pointer;
+    color: #567AFB;
+    font-size: 18px;
+    font-weight: 400;;
+}
+.text-button:hover
+{
+    color: #315dfd;
+}
+
+#apply_recomposition_Btn
+{
+    width: 100%;
+    color: #FFFFFF;
+    background-color: #30BD57;
+    border: unset;
+    height: 80px;
+}
+#cancel_recomposition_Btn
+{
+    width: 100%;
+    height: 80px;
+}
+
+#apply_decomposition_Btn
+{
+    width: 100%;
+    color: #C04F55;
+    background-color: #C04F5526;
+    border: unset;
+    height: 80px;
+}
+#cancel_decomposition_Btn
+{
+    width: 100%;
+    height: 80px;
+}
+
+.icon-btns-class
+{
+    aspect-ratio: 1 / 1;
+    background: #F7F7F7;
+    border: unset;
+    padding: unset;
+    height: 100%;
+}
+
+#green_hand_Btn
+{
+background-color: #62822233;
+}
+
+#gift_Btn
+{
+    background: #2A93E033;
+}
+
+#hide_Btn
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #aaaaaa20;
+    background: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    gap: 3px;
+}
+
+#toNavigation_menu_Btn
+{
+    background: #F7F7F7;
+}
+#toNavigation-menu-btn img
+{
+    width: 30px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.put-on-vitrine-Btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 100%;
+    min-width: 300px;
+    width: 30%;
+    height: 70px;
+    background: #ffffff;
+    border-color: #D9D9D9;
+    border-radius: 6px;
+    gap: 10px;
+    box-shadow: 2px 4px 100px rgba(0, 0, 0, 0.3);
+    user-select: none;
+    cursor: pointer;
+}
+
+#put_on_vitrine_Btn
+{
+
+} 
+
+#skip_put_to_vitrin_Btn
+{
+
+}
+
+.nav-Button
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #7f5353;
+    background-color: #E6DADC;
+    border-radius: 6px;
+    padding: 20px;
+    width: 100%;
+}
+
+.nav-Button p
+{ 
+    height: 100%;
+    align-content: center;
+}
+
+#change_water_to_all_Btn
+{
+    width: 100%;
+}
+
+/* КУРЬЕР */
+.text_button
+{
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.view_all_courier_orders_Btn
+{
+    font-size: 24px;
+    font-weight: 400;
+}
+.edit_courier_photo_Btn
+{
+    color: #848484;
+    font-size: 20px;
+}
+.edit_courier_Btn
+{
+    color: #2D7CB6;
+}
+.edit_courier_Btn:hover
+{
+    color: #2871a5
+}
+
+
+.messageBtn
+{
+    height: -webkit-fill-available;
+    aspect-ratio: 1 / 1;
+    min-height: unset;
+    padding-inline: unset;  
+}
